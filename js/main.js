@@ -1,3 +1,4 @@
+alert('This is a PC only app. (does not work for smartphones)');
 if("geolocation" in navigator){
 
     function geo_success(position){

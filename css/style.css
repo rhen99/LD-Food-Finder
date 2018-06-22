@@ -61,20 +61,8 @@ h2{
     display: inline;
 }
 @media(max-width: 768px){
-    #controls{
-        background: transparent;
-        box-shadow: none;
-    }
-    #radius{
-        padding: .2rem;
-    }
-    #places{
-        padding: .2rem;
-    }
-    .submitBtn{
-        display: block;
-        margin-top: .7rem;
-
+    body{
+        visibility: hidden;
     }
 
 }
