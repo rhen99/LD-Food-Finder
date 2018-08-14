@@ -48,6 +48,17 @@ body{
 }
 #map{
     height: 100vh;
-    background: #ddd;
+    background: #e9e1ae;
     width: 100%;
+}
+@media(max-width: 500px){
+    .formControl{
+        display: block;
+    }
+    .inputDiv{
+        width: 100%;
+    }
+    .submitBtn{
+        width: 100%;
+    }
 }
