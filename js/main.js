@@ -38,7 +38,7 @@ if("geolocation" in navigator){
             function callback(results, status){
                 if (status == google.maps.places.PlacesServiceStatus.OK) {
                     console.log(results);
-                    for (const i = 0; i < results.length; i++) {
+                    for (let i = 0; i < results.length; i++) {
                         addMarker(results[i]);
         
                     }
@@ -72,7 +72,7 @@ if("geolocation" in navigator){
         timeout: 30000
 
     }
-    const wpid = navigator.geolocation.getCurrentPosition(geo_success, geo_error, geo_options);
+    let wpid = navigator.geolocation.getCurrentPosition(geo_success, geo_error, geo_options);
 
     
     
