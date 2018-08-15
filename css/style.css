@@ -50,10 +50,7 @@ body{
     height: 100vh;
     background: #e9e1ae;
     width: 100%;
-}
-.disappear{
-    display: none;
-    transition: .3s;
+    height: 94vh;
 }
 @media(max-width: 500px){
     .formControl{
